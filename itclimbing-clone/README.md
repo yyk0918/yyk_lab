@@ -1,3 +1,11 @@
+
+
+
+## 홈페이지 설명
+이것은 회사 홈페이지를 AI를 사용해서 테스트로 만들어본 소스 및 프로젝트입니다.
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
