@@ -1,4 +1,12 @@
+# IT Climbing Clone
+
+이 홈페이지는 AI 에이전트를 통해 회사 홈페이지를 간단하게 복사해 보는 테스트를 해본 결과입니다. 그리고 그것에 해당하는 소스 및 프로젝트입니다.
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+
 
 ## Getting Started..
 
