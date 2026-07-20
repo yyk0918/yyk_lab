@@ -4,6 +4,10 @@
 
 이것은 READ.MD에 2차 수정이야. main 브런치로 테스트해보려고 해.
 
+# 2차 시도
+
+다시 시도함.
+
 ---
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
