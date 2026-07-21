@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    ports:
+      - "4311:4311"
+    environment:
+      - HOSTNAME=0.0.0.0
+      - PORT=4311
+    restart: unless-stopped
