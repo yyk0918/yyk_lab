@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/autoplay";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* 감탄스토어 브랜드 컬러 */
+  --color-brand: #c9a88c;
+  --color-brand-light: #e8d5c4;
+  --color-brand-lighter: #f7f1eb;
+  --color-brand-dark: #a07850;
+  --color-accent: #d4a574;
+  --color-accent-pink: #e8c4c4;
+  --color-soft-ivory: #faf8f5;
+  --color-soft-beige: #f5f0ea;
+  --color-warm-gray: #f0ede8;
+  --color-text-primary: #2d2d2d;
+  --color-text-secondary: #6b6b6b;
+  --color-text-muted: #999999;
+  --color-border: #e8e4df;
+  --color-border-light: #f0ece7;
+  --color-red: #e74c3c;
+  --color-green: #27ae60;
+}
+
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: "Pretendard Variable", "Apple SD Gothic Neo", "Malgun Gothic",
+      -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+:root {
+  --background: #faf8f5;
+  --foreground: #2d2d2d;
+}
+
+/* 스크롤바 커스텀 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f0ea;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4c4b0;
+  border-radius: 3px;
+}
+
+/* Swiper 커스텀 */
+.swiper-pagination-bullet-active {
+  background: #c9a88c !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #c9a88c !important;
+}
+
+/* 부드러운 스크롤 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Marquee 애니메이션 */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
