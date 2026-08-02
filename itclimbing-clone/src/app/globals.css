@@ -71,3 +71,12 @@ html {
 .delay-300 { animation-delay: 0.3s; }
 .delay-400 { animation-delay: 0.4s; }
 .delay-500 { animation-delay: 0.5s; }
+
+/* Dify Chatbot Custom Styles */
+#dify-chatbot-bubble-button {
+  background-color: #1C64F2 !important;
+}
+#dify-chatbot-bubble-window {
+  width: 24rem !important;
+  height: 40rem !important;
+}
